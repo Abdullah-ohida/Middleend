@@ -1,0 +1,113 @@
+<<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/css/nav.css">
+    <script src="https://kit.fontawesome.com/e2052a1ca7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/asset/css/login.css">
+    <link rel="stylesheet" href="/asset/css/signup.css">
+    <title>Middlend Login</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <div class="left-nav">
+                <a href="#"><img src="/asset/images/middleend logo.png" alt="Logo"></a>
+                <a href="" class="link active">home</a>
+                <a href="" class="link">what's new</a>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="right-nav">
+                <a href="/asset/pages/login.html" class="auth-btn">login</a>
+                <a href="/asset/pages/signup.html" class="auth-btn" id="btn">register</a>
+
+                <div class="cart">
+                    <a href="#" class="cart">
+                        <p class="cart-quant">0</p>
+                        <img src="/asset/images/Component 4.png" alt="cart-logo">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="login-container">
+        <h1>Create Account</h1>
+        <form action="">
+            <div class="validate-input">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+
+            <div class="validate-input">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Password">
+            </div>
+
+            <input type="text" placeholder="Phone number(Optional)" id="number">
+
+            <div class="check">
+                <input type="checkbox" id="checkbox">
+                <p>I want to receive middlend newsletters with the best deals and offers</p>
+            </div>
+
+            <div class="account-btn">
+                <input type="submit" value="create a seller account">
+                <input type="submit" value="create a buyer account">
+            </div>
+
+            <div class="select">
+                <div></div>
+                <p>or</p>
+                <div></div>
+            </div>
+
+            <div class="goggle">
+                <input type="submit" value="register with google" class="goggle">
+            </div>
+            <p>Already have an account? <a href="./login.html">login</a></p>
+        </form>
+    </div>
+
+    <footer>
+        <div class="flex-left">
+            <img src="/asset/images/middleend logo.png" alt="">
+            <p>MIDDLEEND offers all kinds of products and brands in our online store. You can also sort through a list
+                of both old and new products</p>
+        </div>
+        <div class="flex-right">
+            <div class="navigation">
+                <h3>navigation</h3>
+                <li><a href="">home</a></li>
+                <li><a href="">category</a></li>
+                <li><a href="">brands</a></li>
+            </div>
+            <div class="navigation">
+                <h3>links</h3>
+                <li><a href="">shopping</a></li>
+                <li><a href="">returns</a></li>
+                <li><a href="">rules</a></li>
+                <li><a href="">help</a></li>
+                <li><a href="">contract</a></li>
+            </div>
+            <div class="navigation">
+                <h3>account</h3>
+                <li><a href="">favourite (0)</a></li>
+                <li><a href="">cart (0)</a></li>
+                <li><a href="">my account</a></li>
+                <li><a href="">log out</a></li>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
