@@ -1,0 +1,180 @@
+.mainDiv{
+    display: flex;
+    background:No-repeat;
+    flex-direction: ROW;
+    flex-wrap:wrap;
+
+}
+.left{
+  background: no-repeat ;
+  margin-left: 10%;
+  
+}
+
+.right{
+ margin:auto;
+
+
+}
+
+
+.break{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.break::before,
+.break::after{
+    content: "";
+    flex: 1;
+    width: 100px;
+    border-bottom: 1px solid #9999;
+}
+.break:not(:empty)::before{
+    margin-right: 0.25em;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    background-color: #ffffff;
+    align-items: center;
+    align-content: center;   
+}
+.mini-container{
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #FF2E2E;
+}
+
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color:transparent;
+   border-bottom: 0.5px solid black;
+   margin-top: 3%;
+ 
+   
+}
+.passwordFlex {
+    width: 100%;
+}
+.passwordFlex input{
+    width: 100%;
+}
+
+input ::placeholder{
+    color: black;
+    font-size: 18;
+    text-decoration: black;
+}
+
+
+form{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+input i{
+    display: flex;
+}
+
+.fa{
+    color:black;
+    font-size:27px;
+    margin-left: -20px;
+  }
+  #validation-txt{
+    color:#FF2E2E;
+    font-size:18px;
+    width: 300px;
+  }
+  #password-3{
+    -webkit-text-security: disc;
+    -moz-text-security:circle;
+    text-rendering:circle;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  
+  
+.rememberMe{
+    font-size: 10px;
+    text-decoration: none;
+    justify-content: stretch;
+    margin-right: 2rem;
+}
+
+#checkbox{
+    margin: 0 1rem;
+}
+.email-login{
+    display: flex;
+    align-items: center;
+    padding: 5% 0;
+    justify-content: left;
+    align-content: flex-start;
+
+}
+.password{
+    text-decoration: none;
+    color: #FF2E2E;
+}
+.email-btn{
+    border-radius: 0.5rem 0.5rem;
+    background-color: #FF2E2E;
+    color: white;
+    margin-right: 1rem;
+    display: flex;
+    padding: .5rem .5rem;
+    border-style: none;
+}
+.inner-email-login{
+    padding-left: 1rem;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.google-logo{
+    padding-right: 4rem;
+}
+.google-btn{
+    border-radius: 0.5rem 0.5rem;
+    background-color: #FF2E2E;
+    color: white;
+    margin-right: 1rem;
+    display: flex;
+    padding: .5rem .5rem;
+    border-style: none;
+}
+.inner-google-login{
+    padding-right: 6rem;
+    padding-left: 2rem;
+}
+.register p{
+    color: gray;
+}
+.register a{
+    text-decoration: none;
+    color: #FF2E2E;
+}
+
+body{
+    background-color:#fff2c7;
+}
