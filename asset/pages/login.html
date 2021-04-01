@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/asset/css/nav.css">
+    <link rel="stylesheet" href="/asset/css/login.css">
+    <!-- <link rel="stylesheet" href="/asset/css/style.css"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <div class="left-nav">
+                <a href="#"><img src="/asset/images/middleend logo.png" alt="Logo" /></a>
+                <a href="" class="link active">home</a>
+                <a href="" class="link">what's new</a>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="right-nav">
+                <a href="/asset/pages/login.html" class="auth-btn">login</a>
+                <a href="/asset/pages/signup.html" class="auth-btn" id="btn">register</a>
+
+                <div class="cart">
+                    <a href="#" class="cart">
+                        <p class="cart-quant">0</p>
+                        <img src="/asset/images/Component 4.png" alt="cart-logo" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Body of your code here -->
+    <div class="mainDiv">
+
+
+        <div class="left">
+
+
+
+            <div class="mini-container">
+                <h2 class="login">Login</h2>
+                <div>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <div class="passwordFlex">
+                            <input type="password" name="password" id="password-field" placeholder="Password">
+                            <i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+                        </div>
+                </div>
+
+                <div class="email-login">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <a href="" class="rememberMe">Remember Me</a>
+                    <a href="" class="password">forgot your password?</a>
+
+                </div>
+
+                <div class="btn-div">
+                    <button class="email-btn">
+                        <div class="envelope">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="inner-email-login">
+                            LOGIN
+                        </div>
+                    </button>
+                </div>
+                <div class="break">
+                    OR
+                </div>
+                <div>
+                    <button class="google-btn">
+                        <div class="google-logo">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="inner-google-login">
+                            LOGIN WITH GOOGLE
+                        </div>
+                    </button>
+                </div>
+                <div class="register">
+                    <p>I don't have an account?</p>
+                    <a href="#">REGISTER</a>
+                </div>
+            </div>
+            </form>
+        </div>
+
+        <!-- left and right divs -->
+        <div class="right">
+            <img src="/asset/images/rightpic.svg" alt="" width=auto height=auto>
+        </div>
+
+    </div>
+
+    <!--End of Body  -->
+
+    <footer>
+        <div class="flex-left">
+            <img src="/asset/images/middleend logo.png" alt="" />
+            <p>
+                MIDDLEEND offers all kinds of products and brands in our online store.
+                You can also sort through a list of both old and new products
+            </p>
+        </div>
+        <div class="flex-right">
+            <div class="navigation">
+                <h3>navigation</h3>
+                <li><a href="">home</a></li>
+                <li><a href="">category</a></li>
+                <li><a href="">brands</a></li>
+            </div>
+            <div class="navigation">
+                <h3>links</h3>
+                <li><a href="">shopping</a></li>
+                <li><a href="">returns</a></li>
+                <li><a href="">rules</a></li>
+                <li><a href="">help</a></li>
+                <li><a href="">contract</a></li>
+            </div>
+            <div class="navigation">
+                <h3>account</h3>
+                <li><a href="">favourite (0)</a></li>
+                <li><a href="">cart (0)</a></li>
+                <li><a href="">my account</a></li>
+                <li><a href="">log out</a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
